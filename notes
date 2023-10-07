@@ -1,0 +1,20 @@
+Hi, Today I am starting this chat app
+
+App is supposed to built on MERN stack. Since it is realtime data thing so we are going to use Socket
+
+So first we have to learn about Socket.
+
+
+SO in socket, there is combination of listen and emit, every connection has an ID.
+
+So the question is in every chat do we use same socket connection or different based on session or chat..?
+
+Got the idea from chatgpt -  it explained me the pros and cons.
+
+there is one more term called "namespace" in socket, let me check that.
+
+Got some idea, it is specific for division or to create room and all, it is not needed right now.
+
+Till now everything is fine, I am able to connect react app to node service. But if open two different windows it creates different sockets as a result independents chats are there.
+
+
